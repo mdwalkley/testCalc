@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View style="@style/HorizontalSeparator_1dp" />
+
+    <LinearLayout style="@style/AnswerLinearLayout">
+
+        <ImageView style="@style/AnswerImageView"
+            android:id="@+id/answer_ImageView"/>
+        <!--Set src-->
+
+        <TextView style="@style/AnswerTextView"
+            android:id="@+id/answer_TextView"/>
+        <!-- android:id="@+id/answer6" -->
+
+    </LinearLayout>
+
+</LinearLayout>
